@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        Java Script
+    </title>
+</head>
+<body>
+    <p id="max1"> </p>
+    <script>
+        var student={
+            name:"Mohammad",
+            age:"15",
+            grade: "8",
+             hobbies: "Traveling",
+             fav_sport: "Football",
+        };
+        var color=["red","blue","green","yellow"]
+        document.write("<br>","Student name is:"+ student.name,"<br>","Student Fevourite sport is:"+student.fav_sport);
+        document.write("<br>","Before Poping the colors are:"+color.join("-")); "<br>"
+        document.write("<br>","My fevourite color is:"+ color[1]); "<br>"
+        color.pop(); "<br>"
+        document.write("<br>","After poping the colors are:"+ color.join("*")); 
+    </script> 
+</body>
+</html>
